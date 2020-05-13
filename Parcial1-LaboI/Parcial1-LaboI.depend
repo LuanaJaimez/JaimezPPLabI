@@ -16,3 +16,9 @@
 
 1589381156 c:\users\luana\desktop\workspace\parcial1-laboi\auto.h
 
+1589381841 source:c:\users\luana\desktop\workspace\parcial1-laboi\main.c
+	<stdio.h>
+	<stdlib.h>
+	"utn.h"
+	"auto.h"
+

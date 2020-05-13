@@ -342,16 +342,11 @@ void mostrarTrabajo(eTrabajo x)
 
 void mostrarTrabajos(eTrabajo vec[], int tam)
 {
-    int flag = 0;
     system("cls");
     printf("***** Listado de Trabajos *****\n");
     printf("  Id      Patente     ID Servicio     Fecha  \n\n");
-    for(int i=0; i<tam; i++)
+        for(int i=0; i<tam; i++)
     {
-        if(vec[i].isEmpty == 0)
-        {
-            mostrarTrabajo(vec[i]);
-            flag = 1;
-        }
+        printf("%d  %d   %d  %d/%d/%d   \n", vec[i].id, vec[i].patente, vec[i].idServicio, vec[i].fecha.dia, vec[i].fecha.mes, vec[i].fecha.anio);
     }
 }

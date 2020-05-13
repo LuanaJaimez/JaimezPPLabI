@@ -45,7 +45,7 @@ int main()
 
     eTrabajo listaTrabajo[TAM];
 
-    //inicializarAutos(listaAuto, TAM);
+    inicializarAutos(listaAuto, TAM);
 
     do{
             switch(menu())
